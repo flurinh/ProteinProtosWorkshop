@@ -1,0 +1,18 @@
+Family,Receptor,Conserved Residues (Binding Pocket),,,,,,Non-Conserved Residues (Binding Pocket),,,,,,,,
+,,2x46,2x50,3x50,6x45,8x47,8x49,3x47,6x43,6x44,6x46,6x47,6x48,6x49,7x56,7x57
+Parathyroid hormone receptor,PTH1R,R,H,E,L,N,E,I,L,V,M,P,L,F,I,Y
+Parathyroid hormone receptor,PTH2R,R,H,E,L,N,E,I,L,V,V,L,V,F,I,Y
+Glucagon receptor family,GLP1R,R,H,E,L,N,E,L,L,T,I,P,L,L,L,Y
+Glucagon receptor family,GLP2R,R,H,E,L,N,E,L,L,V,I,P,L,L,Q,Y
+Glucagon receptor family,GHRHR,R,H,E,L,N,E,L,L,F,I,P,L,F,L,Y
+Glucagon receptor family,GIPR,R,H,E,L,N,E,L,L,T,V,P,L,L,L,Y
+Glucagon receptor family,GCGR,R,H,E,L,N,E,L,L,T,I,P,L,L,L,Y
+Glucagon receptor family,SCTR,R,H,E,L,N,E,L,L,L,I,P,L,F,L,Y
+Calcitonin receptors,CTR,R,H,E,L,N,E,M,M,I,V,P,L,L,I,Y
+Calcitonin receptors,CLR,R,H,E,L,N,E,M,L,I,V,P,L,L,I,F
+Corticotropin-releasing factor,CRF1R,R,H,E,L,N,E,M,L,V,L,P,L,L,F,Y
+Corticotropin-releasing factor,CRF2R,R,H,E,L,N,E,M,L,V,L,P,L,L,F,Y
+VIP and PACAP receptors,PAC1R,R,H,E,L,N,E,L,L,L,I,P,L,F,L,Y
+VIP and PACAP receptors,VIP1R,R,H,E,L,N,E,L,L,L,I,P,L,F,L,Y
+VIP and PACAP receptors,VIP2R,R,H,E,L,N,E,L,L,L,I,P,L,F,L,Y
+Count,Same AA,15,15,15,15,15,15,9,14,5,8,14,14,8,8,14
