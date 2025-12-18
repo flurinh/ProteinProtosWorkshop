@@ -1,0 +1,11 @@
+{
+  "seq1_id": "8jr9_receptor",
+  "seq2_id": "6nbf_receptor",
+  "score": 88.8000000000007,
+  "alignment": [
+    "------ELDQLRQEAEQLKNQIRDARKACADATLSQITNNIDPVGRIQMRTRRTLRGHLAKIYAMHWGTDSRLLVSASQDGKLIIWDSYTTNKVHAIPL-------------------RSSWVMTCAYAPSGNYVACGGLDNICSIYNLKTREGNVRVSRELAGH----TGYLSCCRFLDDNQIVTSSGDTTCALWDIETGQQTTTFTGHTGDVMSLSLAP----------------DTRLFVSGACDASAKLWDVREGMCRQTFTGHESDINAICFFPNGNAFATGSDDATCRLFDLRADQELMTYSHDNIICGITSVS-FSKSGRLLLAGYDDFNCN-------------------------------------------------------VWDALKADRAGVLAGHDNRVSCLGVTDDGMAVATGSWD----------------------------------------------SFLK---------------------------IW-------------------------NGSS-------------------",
+    "------....|.....|...........|..----------------------------------.|-------------.....|.......|.|.|.-------------------..||..-------------------------------------..||----..|..|..||..........|........----------|......||..|.----------------...||.|---------------------------------------------------|.|||------------------||-|.|...|..|||--..|.-------------------------------------------------------||....|..|.----------------------||.||----------------------------------------------..||---------------------------.|-------------------------||..-------------------",
+    "VMTKEEQIFLLHRAQAQCEKRLKEVGRPCLP----------------------------------EW-------------DHILCWPLGAPGEVVAVPCPDYIYDFNHKGHAYRRCDRNGSWEL-------------------------------------VPGHNRTWANYSECVKFLTNETREREVFDRLAMIYTV----------GYSVSLASLTVAVLILAYFRRLHCTRNYIHMHLFLS---------------------------------------------------FMLRA------------------VSIFVKDAVLYSAGY--AGCRVAVTFFLYFLATNYYWILVEGLYLHSLIFMAFFSEKKYLWGFTVFGWGLPAVFVAVWVSVRATLAN----------------------TGCWDLSSGNKKWIIQVPILASIVLNFILFINIVRVLATKLRETNTRQQYRKLLKSTLVLMPLFGVHYIVFMATPYTEVSGTLWQVQMHYEMLFNSFQGFFVAIIYCFCNGEVQAEIKKSWSRWTLALXXXX"
+  ],
+  "timestamp": "2025-12-18T22:42:32.676108"
+}

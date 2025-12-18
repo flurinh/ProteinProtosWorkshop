@@ -1,0 +1,192 @@
+================================================================================
+PAPER SUMMARY: Conserved Class B GPCR Activation by a Biased Intracellular Agonist
+================================================================================
+
+Authors: Li-Hua Zhao, Qian He, Qingning Yuan, Yimin Gu, Xinheng He, Hong Shan,
+         Junrui Li, Kai Wang, Yang Li, Wen Hu, Kai Wu, Jianhua Shen & H. Eric Xu
+
+Published: Nature, Vol 621, 21 September 2023
+PDB ID: 8JR9 (PCO371-PTH1R-Gs complex, 2.57 A resolution)
+
+================================================================================
+ABSTRACT
+================================================================================
+
+Class B G-protein-coupled receptors (GPCRs), such as GLP1R and PTH1R, are vital
+drug targets. While injectable peptide drugs exist, oral small-molecule drugs
+are still under development.
+
+This paper reports:
+- 2.57 A cryo-EM structure of human PTH1R in complex with Gs and PCO371
+- PCO371 binds at an UNEXPECTED site: the cytoplasmic interface between
+  receptor and G protein (entirely different from known ligand binding sites)
+- This binding pocket is CONSERVED across class B GPCRs
+- PCO371 is a G-protein-biased agonist (defective in arrestin signaling)
+
+================================================================================
+INTRODUCTION
+================================================================================
+
+Class B GPCRs are peptide hormone receptors targeting diseases like:
+- Osteoporosis
+- Type 2 diabetes
+- Obesity
+- Depression
+
+Challenge: Natural ligands are large peptides requiring interaction with the
+receptor's extracellular domain (ECD), making oral small-molecule development
+difficult.
+
+PCO371: A potent, orally available PTH1R agonist currently in phase 1 clinical
+trials for hypoparathyroidism.
+
+================================================================================
+KEY FINDINGS
+================================================================================
+
+1. PCO371 CHARACTERIZATION
+--------------------------
+- Full agonist for cAMP accumulation (similar to PTH 1-34)
+- DEFECTIVE in beta-arrestin 1 and beta-arrestin 2 recruitment
+- Therefore: G-protein-biased agonist
+
+2. UNUSUAL BINDING SITE
+-----------------------
+- PCO371 occupies a unique horizontal U-shape pose at the INTRACELLULAR
+  interface of TM2, TM3, TM6, TM7, and helix H8
+- Interacts DIRECTLY with the alpha-5 helix of Gs
+- Unlike peptide-bound structures, the ECD is invisible (flexible without peptide)
+
+3. KEY MOLECULAR INTERACTIONS (PTH1R numbering)
+-----------------------------------------------
+Hydrogen bonds:
+  - R219 (2.46b): H-bond with PCO371 head imidazolidinone
+  - Y391 (Gs): Polar interaction with PCO371 head
+
+Pi-stacking:
+  - Y459 (7.57b): Pi-stacking with middle phenyl of PCO371
+  - Y391 (Gs): Pi-stacking with middle phenyl of PCO371
+
+Hydrophobic contacts:
+  - I299 (3.47b), L413 (6.45b), I458 (7.56b)
+
+Critical residue:
+  - P415 (6.47b): ESSENTIAL for PCO371 binding
+
+4. CONFORMATIONAL CHANGES
+-------------------------
+Compared to PTH-bound structures:
+- TM6 extracellular end: 7.0 A INWARD shift (would collide with PTH peptide)
+- TM6 intracellular side: 2.4 A OUTWARD shift (creates G-protein coupling cavity)
+
+Three conserved networks rearranged:
+- Central polar network
+- HETY network
+- TM2-TM6-TM7-H8 network
+
+5. SELECTIVITY DETERMINANTS
+---------------------------
+PCO371 is highly selective for PTH1R:
+- Does NOT activate WT PTH2R or GLP1R
+
+Key mutations that RESTORE activity:
+- PTH2R: L370F (6.47b) -> single mutation allows PCO371 activation
+- GLP1R: L244I (3.47b) + L360F (6.49b) -> two mutations allow PCO371 activation
+
+6. PAN-AGONIST ACTIVITY
+-----------------------
+PCO371 activates 7 OTHER WT class B GPCRs:
+- GCGR (glucagon receptor)
+- GIPR (glucose-dependent insulinotropic polypeptide receptor)
+- PAC1R (pituitary adenylate cyclase-activating peptide receptor)
+- GHRHR (growth hormone-releasing hormone receptor)
+- SCTR (secretin receptor)
+- VIP1R (vasoactive intestinal peptide receptor 1)
+- VIP2R (vasoactive intestinal peptide receptor 2)
+
+================================================================================
+MUTANT ACTIVITY DATA (Extended Data Table 2)
+================================================================================
+
+PTH1R mutants with PCO371 response:
+
+ENHANCING MUTATIONS (pEC50 > WT):
+  V412A (6.44b): pEC50 = 7.49 (delta = +0.75) - reduces space constraints
+  M414A (6.46b): pEC50 = 7.34 (delta = +0.60) - reduces space constraints
+  F417A (6.49b): pEC50 = 7.14 (delta = +0.40)
+  G464A (8.49b): pEC50 = 7.07 (delta = +0.33)
+  L416A (6.48b): pEC50 = 7.01 (delta = +0.27)
+
+WILD-TYPE:
+  WT: pEC50 = 6.74
+
+REDUCING MUTATIONS (pEC50 < WT):
+  E302A (3.50b): pEC50 = 5.85 (delta = -0.89)
+  L413A (6.45b): pEC50 = 6.01 (delta = -0.73)
+  L226A (2.53b): pEC50 = 6.07 (delta = -0.67)
+  I299A (3.47b): pEC50 = 6.09 (delta = -0.65)
+  R219A (2.46b): pEC50 = 6.23 (delta = -0.51)
+  H223A (2.50b): pEC50 = 6.31 (delta = -0.43)
+
+CRITICAL (abolishes activity):
+  P415A (6.47b): pEC50 = N/A (no detectable response)
+
+================================================================================
+BINDING POCKET RESIDUES (GRN positions from Figure 4)
+================================================================================
+
+CONSERVED across all 15 Class B GPCRs (same amino acid):
+  2.46b (R), 2.50b (H), 3.50b (E), 6.45b (L), 8.47b (N), 8.49b (E)
+
+VARIABLE (determines selectivity):
+  3.47b: I (PTH1R) vs L (GLP1R/GCGR family) vs M (CTR/CRF family)
+  6.43b: L (conserved in most)
+  6.44b: V (PTH1R) vs T/F/L/I (others)
+  6.46b: M (PTH1R) vs V/I/L (others)
+  6.47b: P (PTH1R/GLP1R family) vs L (PTH2R) - CRITICAL
+  6.48b: L (conserved)
+  6.49b: F (PTH1R) vs L (GLP1R/GCGR)
+  7.56b: I (PTH1R) vs L/F/Q (others)
+  7.57b: Y (mostly conserved, F in CLR)
+
+================================================================================
+CONCLUSION
+================================================================================
+
+PCO371 identifies a NOVEL, CONSERVED intracellular agonist-binding site in
+class B GPCRs. Because this site is far from the ECD, small molecules targeting
+it do NOT need to mimic complex peptide-ECD interactions.
+
+THERAPEUTIC IMPLICATIONS:
+- New template for structure-based design of ORAL drugs
+- Potential application to multiple class B GPCR targets
+- Could enable oral treatments for diabetes (GLP1R), obesity (GIPR), and other
+  conditions currently requiring injectable peptide drugs
+
+================================================================================
+KEY FIGURE SUMMARIES
+================================================================================
+
+Figure 1: PCO371 characterization
+- a-c: Dose-response curves (cAMP vs beta-arrestin recruitment)
+- d-e: Cryo-EM map and structural model of PCO371-PTH1R-Gs complex
+- f: Chemical structure of PCO371
+
+Figure 2: Binding pocket analysis
+- a-c: Side and intracellular views of PCO371-binding pocket
+- d-e: Detailed residue interactions (LigPlot)
+- g: Signaling profiles of PTH1R mutants
+
+Figure 3: Conformational changes
+- Structural comparisons between PTH-bound and PCO371-bound PTH1R
+- TM6 movements and PxxG motif rearrangement
+
+Figure 4: Sequence conservation
+- Alignment of 15 class B GPCRs at binding pocket positions
+- cAMP data for PTH1R/GLP1R mutants
+
+Figure 5: Pan-agonist activity
+- Structural modeling of PCO371-like pockets across family
+- Bar graph of PCO371 activation across WT and mutant receptors
+
+================================================================================

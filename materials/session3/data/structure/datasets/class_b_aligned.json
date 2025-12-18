@@ -1,0 +1,27 @@
+{
+  "name": "class_b_aligned",
+  "processor_type": "structure",
+  "entities": [
+    "8jr9",
+    "6nbf",
+    "7lci",
+    "6x18"
+  ],
+  "entity_ids": [
+    "219a15c5-50a8-4817-a91d-be8ba1b0f308",
+    "a5451c98-28d4-43b7-b42a-e61c799db758",
+    "4caa42d5-7798-4c2b-b078-cc3524024ac2",
+    "a58e40b8-60cc-46f9-93df-5ac4751ccd79"
+  ],
+  "metadata": {
+    "reference_id": "8jr9",
+    "source_dataset": "class_b_gpcr_alignment",
+    "method": "cealign",
+    "atom_selection": "CA",
+    "chain_id": null,
+    "apply_transform": true,
+    "timestamp": "2025-12-18T21:41:43.975989"
+  },
+  "created": "2025-12-18T22:41:44.410651",
+  "modified": "2025-12-18T22:41:44.410687"
+}

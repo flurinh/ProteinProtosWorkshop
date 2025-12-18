@@ -1,0 +1,67 @@
+{
+  "reference_id": "8jr9",
+  "structure_ids": [
+    "8jr9",
+    "6nbf",
+    "7lci",
+    "6x18"
+  ],
+  "method": "cealign",
+  "apply_transform": true,
+  "atom_selection": "CA",
+  "chain_id": null,
+  "parameters": {
+    "cealign_window": 8,
+    "cealign_max_gap": 30
+  },
+  "timestamp": "2025-12-18T21:41:43.975989",
+  "rmsd": {
+    "global": {
+      "count": 4,
+      "min": 0.0,
+      "max": 1.9703312820751844,
+      "mean": 1.1462623938344159,
+      "median": 1.3073591466312395
+    },
+    "pairwise": [
+      {
+        "target_id": "8jr9",
+        "reference_id": "8jr9",
+        "rmsd": 0.0,
+        "algorithm": "cealign",
+        "error": null
+      },
+      {
+        "target_id": "6nbf",
+        "reference_id": "8jr9",
+        "rmsd": 1.1530211272344064,
+        "algorithm": "cealign",
+        "error": null
+      },
+      {
+        "target_id": "7lci",
+        "reference_id": "8jr9",
+        "rmsd": 1.4616971660280729,
+        "algorithm": "cealign",
+        "error": null
+      },
+      {
+        "target_id": "6x18",
+        "reference_id": "8jr9",
+        "rmsd": 1.9703312820751844,
+        "algorithm": "cealign",
+        "error": null
+      }
+    ]
+  },
+  "errors": {},
+  "aligned_entities": [
+    "6nbf",
+    "7lci",
+    "6x18"
+  ],
+  "summary_file": "structure/alignments/class_b_gpcr_alignment.json",
+  "summary_name": "class_b_gpcr_alignment",
+  "summary_dataset": "class_b_gpcr_alignment",
+  "aligned_dataset": "class_b_aligned"
+}

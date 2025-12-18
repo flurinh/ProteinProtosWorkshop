@@ -1,7 +1,17 @@
 {
   "permissions": {
     "allow": [
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(python3:*)",
+      "Bash(source:*)",
+      "Bash(conda activate:*)",
+      "Bash(jupyter nbconvert:*)",
+      "Bash(cat:*)",
+      "Bash(python -c:*)",
+      "Bash(python:*)",
+      "Bash(/home/hidbe/.conda/envs/protos/bin/python:*)",
+      "Bash(/home/hidberf/.conda/envs/workshop/bin/python:*)",
+      "Bash(/mnt/c/Users/hidbe/.conda/envs/workshop/python.exe:*)"
     ],
     "deny": [],
     "ask": []

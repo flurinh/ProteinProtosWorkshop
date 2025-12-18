@@ -1,0 +1,27 @@
+{
+  "name": "pco371_binding_analysis",
+  "processor_type": "structure",
+  "entities": [
+    "8jr9",
+    "6nbf"
+  ],
+  "entity_ids": [
+    "219a15c5-50a8-4817-a91d-be8ba1b0f308",
+    "a5451c98-28d4-43b7-b42a-e61c799db758"
+  ],
+  "metadata": {
+    "source": "PDB",
+    "paper": "Zhao et al. Nature 2023",
+    "purpose": "PCO371 binding pocket analysis",
+    "analysis_date": "2025-12-19T00:17:27.603311",
+    "binding_cutoff": 5.0,
+    "structures": {
+      "8jr9": "PCO371-PTH1R-Gs (MAIN STRUCTURE)",
+      "6nbf": "LA-PTH-PTH1R-Gs (peptide reference)",
+      "6x1a": "PF-06882961-GLP1R-Gs (another small molecule)",
+      "7f16": "TIP39-PTH2R-Gs (related receptor)"
+    }
+  },
+  "created": "2025-12-19T00:17:27.603311",
+  "modified": "2025-12-19T00:17:27.603311"
+}
