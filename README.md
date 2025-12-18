@@ -43,18 +43,15 @@ ProteinProtosWorkshop/
 ├── session3.ipynb                 # Structural biology workflows
 │
 ├── python_cheatsheet.py           # Quick reference card
-├── workshop_utils.py              # Shared utilities
 ├── requirements.txt               # Python dependencies
 │
 ├── materials/
 │   ├── session1/
 │   │   ├── data/                  # Practice datasets
-│   │   ├── solution/              # AI extraction exercises
-│   │   └── teaching_guide.md      # Instructor notes
+│   │   └── solution/              # AI extraction reference files
 │   │
 │   ├── session2/
-│   │   ├── data/                  # FSEC, dose-response, spectroscopy data
-│   │   └── teaching_guide.md      # Instructor notes
+│   │   └── data/                  # FSEC, dose-response, spectroscopy data
 │   │
 │   └── session3/
 │       └── data/                  # PDB structures, GRN mappings, mutant data
@@ -119,13 +116,16 @@ ProteinProtosWorkshop/
 
 ## For Instructors
 
-Teaching guides are available in each session's materials folder:
+Teaching guides and solution files are available on the `teacher` branch:
 
-- `materials/session1/teaching_guide.md`
-- `materials/session2/teaching_guide.md`
-- `materials/session3/SESSION3_TEACHING_GUIDE.md`
+```bash
+git checkout notes
+```
 
-Each guide includes timing recommendations, common pitfalls, and discussion prompts.
+The `teacher/` folder contains:
+- Teaching guides for each session
+- Solution scripts and utilities
+- Reference implementations
 
 ---
 
