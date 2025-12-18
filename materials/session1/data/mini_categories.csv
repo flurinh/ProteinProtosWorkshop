@@ -1,0 +1,6 @@
+protein,expression_system,status
+OpsinA,HEK,pass
+OpsinB,HEK,fail
+OpsinA,CHO,pass
+OpsinC,CHO,pass
+OpsinB,HEK,fail

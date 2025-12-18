@@ -1,0 +1,27 @@
+# Core dependencies for ProteinProtos Workshop
+# Install with: pip install -r requirements.txt
+
+# Jupyter environment
+notebook>=6.0
+jupyter_contrib_nbextensions
+
+# Data manipulation
+numpy>=1.20
+pandas>=1.3
+
+# Visualization
+matplotlib>=3.5
+
+# Signal processing and curve fitting
+scipy>=1.7
+
+# Image handling (for crystal classification)
+pillow>=8.0
+
+# Model serialization
+joblib>=1.0
+
+# Optional: for crystal classifier neural network
+# Uncomment these to run the classifier inference/training
+# torch>=1.9
+# torchvision>=0.10
