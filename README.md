@@ -8,11 +8,12 @@ A hands-on workshop teaching Python fundamentals, data analysis techniques, and 
 
 ## Workshop Overview
 
-| Session | Duration | Focus |
-|:--------|:--------:|:------|
-| **Session 1** | ~1.5 hrs | Python basics, pandas, AI-assisted data extraction |
+| Session       | Duration | Focus                                                        |
+|:--------------|:--------:|:-------------------------------------------------------------|
+| **Session 1** | ~1.5 hrs | Python basics, pandas, AI-assisted data extraction           |
 | **Session 2** | ~1.5 hrs | Signal processing, curve fitting, experimental data analysis |
-| **Session 3** | ~1.5 hrs | Structural biology, PDB analysis, GRN mapping |
+| **Session 3** |  ~1 hrs  | Structural biology, PDB analysis, GRN mapping                |
+| **Session 4** | ~1.5 hrs | Talk to a structural biology AI                              |
 
 ---
 
